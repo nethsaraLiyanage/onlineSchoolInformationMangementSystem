@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .9)), url(images/loginbg.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.loginbox{
+  width: 420px;
+  height: 520px;
+  background: #000;
+  color: #fff;
+  top: 55%;
+  left: 30%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+}
+
+.avatar{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -50px;
+  left: 32%;
+}
+form{
+  padding-left: 60px;
+}
+h1{
+  margin-top: 120px;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.loginbox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold; 
+}
+
+.loginbox input{
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+}
+
+.loginbox input[type="submit"]{
+  border: none;
+  outline: none;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 20px;
+  background: rgb(0, 183, 255);
+}
+.loginbox input[type="submit"]:hover{
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  background: rgb(3, 96, 133);
+}

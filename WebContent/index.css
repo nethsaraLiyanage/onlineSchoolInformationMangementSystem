@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+}
+
+body{
+    background: #e0e0e0;
+}
+
+.header{
+    background: rgb(255, 255, 255);
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+.header .head{
+    margin-left: 30px;
+    text-align: left;
+    font-style: normal;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+.wrapper .sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .9)), url(images/img1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-color: rgb(68, 68, 68);
+    background: linear-gradient(rgb(0, 155, 103),rgb(9, 167, 35));*/
+    padding: 30px 0 0 10px;
+}
+.wrapper .sidebar h2{
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.ad{
+	display:flex;
+	margin-left:15px;
+	margin-bottom:20px;
+}
+.ad h4{
+	padding-top:2px;
+	margin-left:10px;
+    color: rgb(141, 141, 141);
+    font-family: 'Oswald', sans-serif;
+}
+.admin-details{
+	display:flex;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+.admin-details h3{
+	padding-top:2px;
+	margin-left:10px;
+    color: rgb(141, 141, 141);
+    font-family: 'Oswald', sans-serif;
+}
+.wrapper .sidebar button{
+    width: 100%;
+    padding: 8%;
+    background: none;
+    border-top: solid 1px rgb(131, 165, 10);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+}
+.wrapper .sidebar button:hover{
+    background: rgb(243, 243, 243);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    opacity: 50%;
+}
+
+.wrapper .main{
+    width: 85%;
+}
+
+.wrapper .main-content{
+    width: 100%;
+    margin-left: 200px;
+    margin-top: 0px;
+    padding-top: 3px;
+    position: initial;
+}
+
+.info-head{
+    background-color: rgb(187, 187, 187);
+    margin: 20px;
+    padding: 10px;
+    color: rgb(82, 82, 82);
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 20px;
+}
+
+.info-head-in{
+    margin-left: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.info{
+    margin: 10px;
+    color: rgb(71, 71, 71);
+    line-height: 25px;
+}
+
+.statics{
+    display: flex;
+    position: relative;
+}
+
+.part1{
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    line-height: 35px;
+    border-radius: 20px;
+}
+.color1{
+    background: linear-gradient(rgb(255, 158, 47),rgb(255, 186, 36));
+}
+.color2{
+    background: linear-gradient(rgb(78, 33, 243),rgb(122, 85, 255));
+}
+.color3{
+    background: linear-gradient(rgb(21, 170, 16),rgb(93, 180, 90));
+}
+.part2{
+    display: flex;
+    position: relative;
+}
+
+.users{
+    margin-left: 20px;
+}
+
+.users i{
+    color: rgb(255, 255, 254);
+    font-size: 20px;
+    line-break: 5px;
+}
+
+.users h4{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 15px;
+    margin-left: 110px;
+    margin-bottom: 10px;
+    font-family: 'Fjalla One', sans-serif;
+} 
+.highlight{
+    display: flex;
+    position: relative;
+}
+
+.highlight-sub{
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    color: rgb(82, 82, 82);
+}
+
+
+
+.db-panel{
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 10px;
+    color: rgb(82, 82, 82);
+}
+
+.db-table{
+    width: 100%;
+    text-align: left;
+}
+
+.db-table th{
+    text-align: center;
+    padding: 8px;
+    background: linear-gradient(rgb(36, 209, 151),rgb(39, 199, 66));
+    color: white;
+
+}
+.db-table td{
+    text-align: left;
+    padding: 8px;
+}
+.db-table tr:nth-child(even){
+    background-color: #f2f2f2
+}
+
+.st-form{
+    /*background-color: rgb(255, 255, 255);*/
+    background-image: url(images/formbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    padding-top: 20px;
+    padding: 10px;
+    color: rgb(82, 82, 82);
+    
+}
+
+.st-form table{
+    margin-left: 25%;
+    margin-top: 20px;
+}
+.st-form .input{
+    height: 40px;
+    width: 400px;
+    border-radius: 5%;
+    border: 1px solid black;
+    margin: 10px;
+}
+.sub{
+    height: 40px;
+    border-radius: 5%;
+    width: 150px;
+    border: 1px solid black;
+    padding: 10px;
+    background: linear-gradient(rgb(0, 155, 103),rgb(9, 167, 35));
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-request{
+	width:50px;
+	text-align:center;
+	background:none;
+    border:none;
+    margin-right: 10px;	
+}
+
+.input-request-na{
+	text-align:center;
+	background:none;
+	/*background: red;
+	color: white;*/
+    border:none;
+    padding: 5px;
+}
+
+.req-head{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.app-submit{
+    background-color: rgb(238, 76, 76);
+    color: white;
+    border: none;
+    margin-left: 30px;
+    padding: 10px;
+    /*border-radius: 10px;*/
+}

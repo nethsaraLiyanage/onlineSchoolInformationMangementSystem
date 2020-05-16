@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+	
+	
+	<!--login servlet-->
+	<servlet>
+		<servlet-name>AdminLoginServlet</servlet-name>
+		<servlet-class>pack.Admin.AdminLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLoginServlet</servlet-name> 
+		<url-pattern>/AdminLoginServlet</url-pattern>
+	</servlet-mapping>
+	
+	<!--CreateStudent servlet-->	 
+	<servlet>
+		<servlet-name>CreateStudent</servlet-name>
+		<servlet-class>pack.Admin.CreateStudent</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateStudent</servlet-name> 
+		<url-pattern>/CreateStudent</url-pattern>
+	</servlet-mapping>
+
+	<!--CreateTeacher servlet-->
+	<servlet>
+		<servlet-name>CreateTeacher</servlet-name>
+		<servlet-class>pack.Admin.CreateTeacher</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreatTeacher</servlet-name> 
+		<url-pattern>/CreateTeacher</url-pattern>
+	</servlet-mapping>
+
+	<!--CreateClerk servlet-->
+	<servlet>
+		<servlet-name>CreateClerk</servlet-name>
+		<servlet-class>pack.Admin.CreateClerk</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateClerk</servlet-name> 
+		<url-pattern>/CreateClerk</url-pattern>
+	</servlet-mapping>
+	
+	<!--CreateSubject servlet-->
+	<servlet>
+		<servlet-name>CreateSubject</servlet-name>
+		<servlet-class>pack.Admin.CreateSubject</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CreateSubject</servlet-name> 
+		<url-pattern>/CreateSubject</url-pattern>
+	</servlet-mapping>
+	
+	<!--UpdateTeacher servlet-->
+	<servlet>
+		<servlet-name>UpdateTeacher</servlet-name>
+		<servlet-class>pack.Admin.UpdateTeacher</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateTeacher</servlet-name> 
+		<url-pattern>/UpdateTeacher</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!--UpdateClerk servlet-->
+	<servlet>
+		<servlet-name>UpdateClerk</servlet-name>
+		<servlet-class>pack.Admin.UpdateClerk</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateClerk</servlet-name> 
+		<url-pattern>/UpdateClerk</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!--RemoveStudent servlet-->
+	<servlet>
+		<servlet-name>RemoveStudent</servlet-name>
+		<servlet-class>pack.Admin.RemoveStudent</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RemoveStudent</servlet-name> 
+		<url-pattern>/RemoveStudent</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!--RemoveTeacher servlet-->
+	<servlet>
+		<servlet-name>RemoveTeacher</servlet-name>
+		<servlet-class>pack.Admin.RemoveTeacher</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RemoveTeacher</servlet-name> 
+		<url-pattern>/RemoveTeacher</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!--RemoveClerk servlet-->
+	<servlet>
+		<servlet-name>RemoveClerk</servlet-name>
+		<servlet-class>pack.Admin.RemoveClerk</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RemoveClerk</servlet-name> 
+		<url-pattern>/RemoveClerk</url-pattern>
+	</servlet-mapping>
+	
+	<!--RemoveClerk servlet-->
+	<servlet>
+		<servlet-name>UpdateDashboardServlet</servlet-name>
+		<servlet-class>pack.Admin.UpdateDashboardServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateDashboardServlet</servlet-name> 
+		<url-pattern>/UpdateDashboardServlet</url-pattern>
+	</servlet-mapping>
+	
+	<!--RemoveStudent servlet-->
+	<servlet>
+		<servlet-name>RemoveSubject</servlet-name>
+		<servlet-class>pack.Admin.RemoveSubject</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RemoveSubject</servlet-name> 
+		<url-pattern>/RemoveSubject</url-pattern>
+	</servlet-mapping>
+</web-app>
