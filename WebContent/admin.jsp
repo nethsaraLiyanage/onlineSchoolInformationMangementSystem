@@ -36,7 +36,7 @@
 					<img src="images\user2.png" alt="fqfe" width="33px" height="30px">
 					<h4>${sessionName}</h4>
 				</div>
-				
+                <!--Side pannel buttons-->
                     <a href="#main-cont1"><button id="btn1" onclick="get_ID(this.id)">Insights</button></a>
                     <a href="#main-cont2"><button id="btn2" onclick="get_ID(this.id)"> New Requests</button></a>
                     <a href="#main-cont3"><button id="btn3" onclick="get_ID(this.id)">Student</button></a>
@@ -57,6 +57,7 @@
 
             <div class="main row col-lg-9 ml-auto bg-dark  fixed-top">
 
+                <!------------------------main-cont1----------------------->
                 <div class="main-content" id="main-cont1">
                 
                     <div class="info-head">
@@ -172,6 +173,8 @@
     
                 <!----------------------------------end of analyze panel-------------------------->
 
+
+                 <!------------------------main-cont2----------------------->
 				<div class="main-content" id="main-cont2">
                     <div class="info-head color1">
     
@@ -253,7 +256,9 @@
                 </div>
 
 				<!----------------------------------end of request panel-------------------------->
-				
+                
+                
+                 <!------------------------main-cont3----------------------->
                 <div class="main-content" id="main-cont3"  onclick="get_ID(this.id)">
                     <div class="info-head color1">
     
@@ -343,6 +348,8 @@
                 
                 <!----------------------------------end of student panel-------------------------->
 
+
+                 <!------------------------main-cont4----------------------->
 
                 <div class="main-content" id="main-cont4"  onclick="get_ID(this.id)">
                     <div class="info-head color1">
