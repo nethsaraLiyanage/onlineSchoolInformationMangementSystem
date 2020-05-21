@@ -14,7 +14,7 @@ public class StudentDBUtil {
 	private static Statement stmt = null;
 	private static ResultSet rs = null;
  
-	/** Initialize logger */
+	/** logger class initializing here **/
 	private static final Logger LOGGER = Logger.getLogger(StudentDBUtil.class.getName());
 	
 	public static boolean insertStudent(String name, String address, String username, String password, String clz) {
@@ -67,6 +67,7 @@ public class StudentDBUtil {
 		
 				}
 				catch (Exception e) {
+					/** logger class messege **/
 					LOGGER.log(Level.SEVERE, e.getMessage());
 				}
 				

@@ -16,7 +16,7 @@ public class SubjectDBUtil {
 	private static Statement stmt = null;
 	private static ResultSet rs = null;
 
-	/** Initialize logger */
+	/** logger class initializing here **/
 	private static final Logger LOGGER = Logger.getLogger(SubjectDBUtil.class.getName());
 
 	public static boolean insertSubject(String subName, String grade, String periods) {
@@ -52,6 +52,7 @@ public class SubjectDBUtil {
 			
 		}
 		catch (Exception e) {
+					/** logger class messege **/
 			LOGGER.log(Level.SEVERE, e.getMessage());
 		}
 		

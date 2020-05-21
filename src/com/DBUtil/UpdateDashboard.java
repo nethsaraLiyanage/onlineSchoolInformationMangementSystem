@@ -28,7 +28,7 @@ public class UpdateDashboard {
 	private static ResultSet rs;
 	static java.sql.PreparedStatement preparedStatement;
 
-	/** Initialize logger */
+	/** logger class initializing here **/
 	private static final Logger LOGGER = Logger.getLogger(UpdateDashboard.class.getName());
 
 	//get the admin name 
@@ -51,7 +51,7 @@ public class UpdateDashboard {
 			 System.out.println(empName); } con.close();
 			 
 			 }catch (Exception e) {
-				 // TODO: handle exception 
+					/** logger class messege **/
 					LOGGER.log(Level.SEVERE, e.getMessage());
 				 }
 	  
@@ -82,6 +82,7 @@ public class UpdateDashboard {
 			con.close();
 
 		} catch (Exception e) {
+					/** logger class messege **/
 			LOGGER.log(Level.SEVERE, e.getMessage());
 		}
 
@@ -108,6 +109,7 @@ public class UpdateDashboard {
 			}
 
 		} catch (Exception e) {
+					/** logger class messege **/
 			LOGGER.log(Level.SEVERE, e.getMessage());
 		}
 		return tot;
@@ -134,6 +136,7 @@ public class UpdateDashboard {
 			}
 
 		} catch (Exception e) {
+					/** logger class messege **/
 			LOGGER.log(Level.SEVERE, e.getMessage());
 		}
 		return tot;
@@ -160,6 +163,7 @@ public class UpdateDashboard {
 			}
 
 		} catch (Exception e) {
+					/** logger class messege **/
 			LOGGER.log(Level.SEVERE, e.getMessage());
 		}
 		return tot;
@@ -186,6 +190,7 @@ public class UpdateDashboard {
 			}
 
 		} catch (Exception e) {
+					/** logger class messege **/
 			LOGGER.log(Level.SEVERE, e.getMessage());
 		}
 		return tot;
@@ -212,6 +217,7 @@ public class UpdateDashboard {
 			}
 
 		} catch (Exception e) {
+					/** logger class messege **/
 			LOGGER.log(Level.SEVERE, e.getMessage());
 		}
 		return tot;
@@ -249,6 +255,7 @@ public class UpdateDashboard {
 			}
 
 		} catch (Exception e) {
+					/** logger class messege **/
 			LOGGER.log(Level.SEVERE, e.getMessage());
 		}
 
@@ -286,7 +293,8 @@ public class UpdateDashboard {
 				cRequests.add(cr);
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+					/** logger class messege **/
+			LOGGER.log(Level.SEVERE, e.getMessage());
 		}
 
 		return cRequests;
@@ -321,7 +329,8 @@ public class UpdateDashboard {
 				student.add(stud);
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+			/** logger class messege **/
+			LOGGER.log(Level.SEVERE, e.getMessage());
 		}
 
 		return student;
@@ -362,7 +371,8 @@ public class UpdateDashboard {
 				teacher.add(tec);
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+			/** logger class messege **/
+			LOGGER.log(Level.SEVERE, e.getMessage());
 		}
 
 		return teacher;
@@ -400,7 +410,8 @@ public class UpdateDashboard {
 				clerk.add(crk);
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+			/** logger class messege **/
+			LOGGER.log(Level.SEVERE, e.getMessage());
 		}
 
 		return clerk;
@@ -433,7 +444,8 @@ public class UpdateDashboard {
 				subject.add(sub);
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+			/** logger class messege **/
+			LOGGER.log(Level.SEVERE, e.getMessage());
 		}
 
 		return subject;

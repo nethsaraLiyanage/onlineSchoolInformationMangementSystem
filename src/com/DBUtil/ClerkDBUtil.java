@@ -16,7 +16,7 @@ public class ClerkDBUtil {
 	private static Statement stmt = null;
 	private static ResultSet rs = null;
 	
-	/** Initialize logger */
+	/** logger class initializing here **/
 	private static final Logger LOGGER = Logger.getLogger(ClerkDBUtil.class.getName());
 	
 	public static boolean insertClerk(String empName, String address, String contactNo, String email, String userName,
@@ -60,6 +60,7 @@ public class ClerkDBUtil {
 			
 		}
 		catch (Exception e) {
+			/** logger class messege **/
 			LOGGER.log(Level.SEVERE, e.getMessage());
 		}
 		
@@ -104,6 +105,7 @@ public class ClerkDBUtil {
 		
 				}
 				catch (Exception e) {
+					/** logger class messege **/
 					LOGGER.log(Level.SEVERE, e.getMessage());
 				}
 				
@@ -133,6 +135,7 @@ public class ClerkDBUtil {
 		
 				}
 				catch (Exception e) {
+					/** logger class messege **/
 					LOGGER.log(Level.SEVERE, e.getMessage());
 				}
 				

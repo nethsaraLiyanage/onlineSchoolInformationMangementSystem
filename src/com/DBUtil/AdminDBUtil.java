@@ -18,7 +18,7 @@ public class AdminDBUtil {
 	private static PreparedStatement stmt;
 	private static ResultSet rs;
 	
-	/** Initialize logger */
+	/** logger class initializing here **/
 	private static final Logger LOGGER = Logger.getLogger(AdminDBUtil.class.getName());
 
 	public Login getData(String usernameSt, String passwordSt) {
@@ -47,6 +47,7 @@ public class AdminDBUtil {
 			}
 			
 		}catch(Exception e) {
+			/** logger class messege **/
 			LOGGER.log(Level.SEVERE, e.getMessage());
 		}
 		return login;
