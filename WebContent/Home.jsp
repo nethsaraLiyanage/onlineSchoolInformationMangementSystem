@@ -124,15 +124,13 @@
         </div>
         <br><br>
 
-
+        <!--button pannel initializing-->
         <div class="btn-toolbar mt-10 mb-10" style="margin-left: 450px; margin-top: 100px;" role="toolbar" aria-label="Toolbar with button groups">
 
 
             <div class="btn-group mr-3" role="group" aria-label="First group">
                 <button type="button" class="btn btn-default  px-5" onclick=""><a href="StudentLogin.jsp">Student</a></button>
-              <!--<button type="button" class="btn btn-default">2</button>
-              <button type="button" class="btn btn-default">3</button>
-              <button type="button" class="btn btn-default">4</button>-->
+              
             </div>
             <div class="btn-group mr-3"  role="group" aria-label="Second group">
                 <button type="button" class="btn btn-default  px-5" onclick=""><a href="Login.jsp">Teacher</a></button>
@@ -147,10 +145,12 @@
               </div>
         </div>
 
+        <!--container pannel initializing-->
         <div class="container" style="margin-top: 120px; margin-bottom: 30px;">
             
             <h2 style="margin-bottom: 20px; font-weight: 100;">Extra Curricular Activities</h2>
 
+            <!--ec curriculer pannel initializing-->
             <div class="row">
               <div class="col-sm">
                   <!-- Card Wider -->
@@ -226,6 +226,7 @@
 
             <h2 style="margin-top: 30px; margin-bottom: 20px; font-weight: 100;">Subjects</h2>
 
+            <!--subject pannel initializing-->
             <div class="row">
               <div class="col-sm">
                   <!-- Card Wider -->
